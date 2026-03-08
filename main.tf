@@ -459,7 +459,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
   admin_username        = "azureuser"
   network_interface_ids = [azurerm_network_interface.nic.id]
 
-  admin_password = "P@ssword1234!" # lub użyj ssh_key
+ # lub użyj ssh_key
 
   disable_password_authentication = false
 
